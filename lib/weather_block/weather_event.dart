@@ -8,10 +8,11 @@ sealed class WeatherEvent extends Equatable {
 }
 
 class FetchWeather extends WeatherEvent {
-   final Position position;
+  // getting the device location
+  final Position position;
 
-   const FetchWeather(this.position);
+  const FetchWeather(this.position);
 
-     @override
+  @override
   List<Object> get props => [position];
 }

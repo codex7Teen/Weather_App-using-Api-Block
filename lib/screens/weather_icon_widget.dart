@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// This is widget which gives the weather icon according to the weather code
 Widget getWeatherIcon(int code) {
   switch (code) {
     case >= 200 && < 200:
